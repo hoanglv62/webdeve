@@ -38,9 +38,7 @@ body {
 }
 #tensach{
   color   : red;
-margin-left:10px;
-margin-border:20px;
-
+margin-left:300px;
 }
 .book{
   padding: 30px;
@@ -49,75 +47,83 @@ margin-border:20px;
   margin-top:50px;
 }
 .book img{
-  margin-left: 10px;
+  margin-left: 20px;
   padding:20px;
+}
+.book a{
+  font-size: 27px;
 }
 
 #book1
 {
-  border-width: 3px;
+  border-width: 5px;
   border-style: double;
   width: 100%;
   border-color: green;
 }
 #book2
 {
-  border-width: 3px;
+  border-width: 5px;
   border-style: double;
   width: 100%;
 border-color: green;
 }
 #book3
 {
-  border-width: 3px;
+  border-width: 5px;
   border-style: double;
   width: 100%;
 border-color: green;
 }
 #book4
 {
-  border-width: 3px;
+  border-width: 5px;
   border-style: double;
   width: 100%;
 border-color: green;
 }
 #book5
 {
-  border-width: 3px;
+  border-width: 5px;
   border-style: double;
   width: 100%;
   border-color: green;
 }
 #book6
 {
-  border-width: 3px;
+  border-width: 5px;
   border-style: double;
   width: 100%;
   border-color: green;
 }
 #book7
 {
-  border-width: 3px;
+  border-width: 5px;
   border-style: double;
   width: 100%;
   border-color: green;
 }
 #book8
 {
-  border-width: 3px;
+  border-width: 5px;
   border-style: double;
   width: 100%;
   border-color: green;
 
 }
-#noidung
-{
-  border-width:5px;
-  border-style: double;
-  border-color: green;
-  padding:30px;
-  margin-left: 50px;
-  margin-right:  50px;
-  margin-top:50px;
 
+}
+#book p{
+  font-size: 16px;
+}
+#noidung{
+  float:left;
+  margin-left: 10px;
+  padding:10px;
+}
+#hinhanh{
+  float:left;
+}
+.clear{
+  clear: both;
 }
