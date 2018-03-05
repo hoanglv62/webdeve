@@ -116,10 +116,10 @@ border-color: green;
 #book p{
   font-size: 16px;
 }
-#noidung{
+#noidungrutgon{
   float:left;
   margin-left: 10px;
-  padding:10px;
+  padding:16px;
 }
 #hinhanh{
   float:left;
@@ -127,3 +127,13 @@ border-color: green;
 .clear{
   clear: both;
 }
+#noidung
+{
+ border-width:5px;
+ border-style: double;
+ border-color: green;
+ padding:30px;
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-top:50px;
+ }
