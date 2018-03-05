@@ -10,7 +10,7 @@ body {
 #menu ul {
   background: green;
   list-style-type: none;
-  text-align: left;
+  text-align: center;
 }
 #menu li {
   color: #f1f1f1;
@@ -38,5 +38,86 @@ body {
 }
 #tensach{
   color   : red;
-  background-color: blue;
+margin-left:10px;
+margin-border:20px;
+
+}
+.book{
+  padding: 30px;
+  margin-left: 10px;
+  margin-right:  10px;
+  margin-top:50px;
+}
+.book img{
+  margin-left: 10px;
+  padding:20px;
+}
+
+#book1
+{
+  border-width: 3px;
+  border-style: double;
+  width: 100%;
+  border-color: green;
+}
+#book2
+{
+  border-width: 3px;
+  border-style: double;
+  width: 100%;
+border-color: green;
+}
+#book3
+{
+  border-width: 3px;
+  border-style: double;
+  width: 100%;
+border-color: green;
+}
+#book4
+{
+  border-width: 3px;
+  border-style: double;
+  width: 100%;
+border-color: green;
+}
+#book5
+{
+  border-width: 3px;
+  border-style: double;
+  width: 100%;
+  border-color: green;
+}
+#book6
+{
+  border-width: 3px;
+  border-style: double;
+  width: 100%;
+  border-color: green;
+}
+#book7
+{
+  border-width: 3px;
+  border-style: double;
+  width: 100%;
+  border-color: green;
+}
+#book8
+{
+  border-width: 3px;
+  border-style: double;
+  width: 100%;
+  border-color: green;
+
+}
+#noidung
+{
+  border-width:5px;
+  border-style: double;
+  border-color: green;
+  padding:30px;
+  margin-left: 50px;
+  margin-right:  50px;
+  margin-top:50px;
+
 }
