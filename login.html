@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> ĐĂNG NHẬP </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+  </style>
+</head>
+
+<body style="background-color:#d6f5f5">
+  <div id="menu" style="width:100%;height:10%">
+    <div class="anhbia2">
+      <center>
+        <img src="anhbia.jpg" width=1920px height=auto>
+      </center>
+    </div>
+    <ul>
+      <li><a href="index.html"><b>Trang Chủ</b></a></li>
+      <li>
+        <div class="dropdown" style="width:5%;">
+          <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Sách hay
+    <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="book1.html">Thăng Long – Hà Nội: Thư mục chọn lọc</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="book6.html">Thuật ứng xử tình huống trong quản lý giáo dục và đào tạo</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="book7.html">Tớ biết bảo vệ cơ thể mình</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="book8.html">“Oscar và bà áo Hồng” - Câu chuyện về nghị lực sống phi thường</a></li>
+          </ul>
+      </li>
+      <li>
+        <div class="dropdown" style="width:5%;">
+          <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" style="color:black;">Liên Hệ
+    <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="background-color:">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.facebook.com">Facebook</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="mailto:hoavosongg@gmail.com" target="_top">Mail</a></li>
+          </ul>
+      </li>
+      <li>
+        <div align="right">
+          <a href="login.html"><b>Đăng Nhập </b></a>
+        </div>
+      </li>
+      <li>
+        <div align="right">
+          <a href="dangky.html"><b>Đăng Ký </b></a>
+        </div>
+      </li>
+      <li>
+        <form class="navbar-form navbar-left"  style="width:100%;margin-left:200%;margin-top:6%">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Tìm kiếm" name="search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+            Tìm
+          </button>
+            </div>
+          </div>
+        </form>
+      </li>
+    </ul>
+    </div>
+    </div>
+  </div>
+
+<div class="container" style="width:40%">
+  <h2>Đăng Nhập</h2>
+  <form>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Nhập gmail" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Mật Khẩu:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Nhập mật khẩu" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Lưu giữ </label>
+    </div>
+    <button type="submit" class="btn btn-default"><a href="index.html" onclick = "alert('Bạn đã đăng nhập thành công.')">Đăng Nhập</a></button>
+  </form>
+</div>
+
+
+
+  <script src="jquery.js"></script>
+  <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
